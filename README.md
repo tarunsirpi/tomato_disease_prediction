@@ -2,9 +2,9 @@
 
   Dataset contains images of Tomato leaves labelled in 10 categories. A tensorflow CNN model is trained to classify the images uploaded as one of the categories. Finally, a FastAPI application uses the saved model to make predictions.
 
-  * `training` - contains files required for training the model (here data directory is hidden).
-  * `templates` - contains frontend template.
-  * `saved_models` - contains models saved in  *.keras* format.
+  * ```training``` - contains files required for training the model (here data directory is hidden).
+  * ```templates``` - contains frontend template.
+  * ```saved_models``` - contains models saved in  *.keras* format.
 
 ## Setup for training the model:
 
@@ -21,7 +21,7 @@ pip install -r training-requirements.txt
 
 (Note: 
 1. Here the model is trained using GPU. So, some of the packages used are dependent of the hardware.
-2. Use `requirements-common.txt` to use packages without hardware dependency.)
+2. Use ```requirements-common.txt``` to use packages without hardware dependency.)
 
 ## setup git repo
 
@@ -50,4 +50,4 @@ conda activate env_name
 pip install -r requirements.txt
 ```
 
-Run the `main.py` file to start the FastAPI application.
+Run the ```main.py``` file to start the FastAPI application.
