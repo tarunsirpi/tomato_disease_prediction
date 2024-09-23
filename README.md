@@ -29,7 +29,7 @@ git push -u origin main
 ```
 
 ## Model training:
-Download the data from [Kaggle] (https://www.kaggle.com/datasets/arjuntejaswi/plant-village).
+Download the data from [Kaggle](https://www.kaggle.com/datasets/arjuntejaswi/plant-village).
 Only keep folders related to Tomato Disease Classification.
 Run Jupyter Notebook.
 
