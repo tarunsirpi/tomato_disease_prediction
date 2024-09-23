@@ -1,5 +1,7 @@
 # Tomato Disease Classification
 
+  Dataset contains images of Tomato leaves labelled in 10 categories.
+
 ## Setup for training the model:
 
 Run the following to setup python environment for training the model,
@@ -9,7 +11,9 @@ conda create -p env_name python=3.9 -y
 ```
 conda activate env_name
 ```
-``` pip install -r requirements.txt ```
+``` 
+pip install -r training-requirements.txt
+```
 
 (Note: Here the model is trained using GPU. So, some of the packages used are dependent of the hardware.)
 
@@ -28,3 +32,16 @@ git push -u origin main
 Download the data from kaggle (Data is downloaded from the following link: https://www.kaggle.com/datasets/arjuntejaswi/plant-village).
 Only keep folders related to Tomato Disease Classification.
 Run Jupyter Notebook.
+
+## Creating FastAPI application
+```
+conda create -p env_name python=3.9 -y
+```
+```
+conda activate env_name
+```
+``` 
+pip install -r requirements.txt
+```
+
+Run the main.py file to start the FastAPI application.
