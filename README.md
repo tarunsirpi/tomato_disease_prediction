@@ -1,6 +1,6 @@
 # Tomato Disease Classification
 
-  Dataset contains images of Tomato leaves labelled in 10 categories.
+  Dataset contains images of Tomato leaves labelled in 10 categories. A tensorflow CNN model is trained to classify the images uploaded as one of the categories.
 
 ## Setup for training the model:
 
@@ -29,7 +29,7 @@ git push -u origin main
 ```
 
 ## Model training:
-Download the data from kaggle (Data is downloaded from the following link: https://www.kaggle.com/datasets/arjuntejaswi/plant-village).
+Download the data from [Kaggle] (https://www.kaggle.com/datasets/arjuntejaswi/plant-village).
 Only keep folders related to Tomato Disease Classification.
 Run Jupyter Notebook.
 
