@@ -2,6 +2,7 @@ tensorflow
 keras
 fastapi
 uvicorn
+Jinja2
 python-multipart
 pillow
 numpy
