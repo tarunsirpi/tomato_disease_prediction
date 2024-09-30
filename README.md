@@ -23,7 +23,7 @@ pip install -r training-requirements.txt
 1. Here the model is trained using GPU. So, some of the packages used are dependent of the hardware.
 2. Use ```requirements-common.txt``` to use packages without hardware dependency.)
 
-## Setup git repo:
+## Setup for git repository:
 
 ```
 git init
