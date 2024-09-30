@@ -23,7 +23,7 @@ pip install -r training-requirements.txt
 1. Here the model is trained using GPU. So, some of the packages used are dependent of the hardware.
 2. Use ```requirements-common.txt``` to use packages without hardware dependency.)
 
-## setup git repo:
+## Setup git repo:
 
 ```
 git init
@@ -37,9 +37,9 @@ git push -u origin main
 ## Model training:
 1. Download the data from [Kaggle](https://www.kaggle.com/datasets/arjuntejaswi/plant-village).
 2. Only keep folders related to Tomato Disease Classification.
-3. Run Jupyter Notebook.
+3. Run Jupyter Notebook (/training/tomato_training.ipynb).
 
-## Creating FastAPI application:
+## Setup environment for FastAPI application:
 ```
 conda create -p env_name python=3.9 -y
 ```
@@ -50,4 +50,18 @@ conda activate env_name
 pip install -r requirements.txt
 ```
 
-Run the ```main.py``` file to start the FastAPI application.
+## Docker setup:
+
+Run the following commands to create a docker image and run the FastAPI application on a container,
+
+```
+docker build -t image-name .
+```
+```
+docker run -p 8010:8010 --name container-name image-name
+```
+
+check the link : http://localhost:8010/
+
+
+For running the application without container, run the ```main.py``` file to start the FastAPI application.
